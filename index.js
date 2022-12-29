@@ -46,6 +46,10 @@ res.send(result)
 })
 
 
+app.get('/hero', (req,res) => {
+  res.send('Hero meets Hero')
+})
+
 
 
 }
